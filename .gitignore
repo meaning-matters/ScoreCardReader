@@ -1,0 +1,97 @@
+# Xcode
+#
+build/
+DerivedData/
+.idea/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Ignore all static libraries and object files
+*.a
+*.o
+*.obj
+
+# Ignore Xcode's temporary files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# User-specific files
+#
+*.swp
+*~.nib
+
+# macOS
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Thumbnails
+*.VolumeIcon.icns
+.TemporaryItems
+.Trashes
+
+# Files that might appear in the root of a volume
+.DS_Store
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.fseventsd
+
+# Lock files to avoid spurious conflicts
+#
+*.lock
+
+# Xcode 8 and later
+#
+*.xcworkspace
+*.xcdebugger
+
+# Application-specific files
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Archive and support files
+#
+*.xcarchive
+*.mobileprovision
+
+# Binaries
+#
+*.ipa
+*.app.dSYM.zip
+*.app.dSYM
+
+# Unit test bundle
+#
+*.xctest
+
+# Build data
+#
+*.pbxproj
+*.xcworkspace
+
+# Localization files
+#
+*.strings
+
+# Simulator devices
+#
+*/Build
+*.simulated
+*.tbx
+*.dfd
+
+# Ignore the Xcode index
+#
+.index/  
+
